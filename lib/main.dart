@@ -70,20 +70,18 @@ final GoRouter _router = GoRouter(
       builder: (BuildContext context, GoRouterState state) {
         return const SplashView();
       },
-      routes: <RouteBase>[
-        GoRoute(
-          path: 'home',
-          builder: (BuildContext context, GoRouterState state) {
-            return const HomeView();
-          },
-        ),
-        GoRoute(
-          path: 'details',
-          builder: (BuildContext context, GoRouterState state) {
-            return const DetailsView();
-          },
-        ),
-      ],
+    ),
+    GoRoute(
+      path: '/home',
+      builder: (BuildContext context, GoRouterState state) {
+        return const HomeView();
+      },
+    ),
+    GoRoute(
+      path: '/details',
+      builder: (BuildContext context, GoRouterState state) {
+        return const DetailsView();
+      },
     ),
   ],
 );

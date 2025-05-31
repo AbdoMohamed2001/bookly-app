@@ -17,7 +17,7 @@ class _SplashViewState extends State<SplashView> {
     super.initState();
     // TODO: implement initState
     Timer(Duration(seconds: 1), () {
-      context.pushReplacement('/home');
+      GoRouter.of(context).go('/home');
     });
   }
 
