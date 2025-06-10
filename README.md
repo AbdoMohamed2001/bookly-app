@@ -1,16 +1,36 @@
-# bookly_app
+# 📚 Bookly App
+Bookly App is a mobile application that lets users search, explore, and read books directly from the Google Books API. Whether you're looking for fiction, non-fiction, or academic material, Bookly makes discovering and enjoying books easier.
 
-A new Flutter project.
+---
 
-## Getting Started
+## 🚀 Tech Stack
+- 📚 Google Books API – Book data and previews
+- 🧠 Bloc – State Management
+- 🌗 Themes – Light and Dark mode(working in it)
+- 🧼 Clean Architecture – Modular and scalable
+- 📱 Responsive UI – Works on all screen sizes
+- 💾 Shared Preferences – Save reading history and favorites
+- 🔄 Pagination – Load books page by page for better performance and data save 
 
-This project is a starting point for a Flutter application.
+## 📱 App Features
+- 🔍 Search for millions of books via Google Books
+- 📖 Read Previews of books inside the app
+- 🌟 Favorite books to save for later
+- 🌓 Theme switch (light/dark)
+## 🔍 Feature Details
+#### 🔎 Book Search
+- Search by title, author, or keyword
+- Instant results from Google Books
+- Book cards with title, author, thumbnail, and rating
+#### 📖 Book Details
+- Description, Publisher, Published Date
+- Page Count, Categories
+- Link to full preview on Google Books
+#### 🌟 Favorites
+- Save your favorite books to revisit anytime
+- Organized and accessible offline
+#### 🕘 Reading History
+- Automatically saves books you've opened
+- Quick access to previously viewed titles
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots
